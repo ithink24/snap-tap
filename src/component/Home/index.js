@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 import Logo from '../../Images/Logo.svg';
 import Banner from '../../Images/Banner.svg';
 import Right from '../../Images/right.png';
@@ -7,7 +8,6 @@ import ColorFulBtn from '../../Images/colorful-btn.svg';
 import Section3Image1 from '../../Images/section 3 image1.svg';
 import Section3Image2 from '../../Images/section 3 image2.svg';
 import Section3Image3 from '../../Images/section 3 image3.svg';
-import Button from 'react-bootstrap/Button';
 import './style.css';
 import Section3 from './Section3';
 import Section4 from './Section4';

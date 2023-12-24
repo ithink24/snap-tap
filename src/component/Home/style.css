@@ -321,14 +321,17 @@ footer p a:hover {
 
 .card-slider .carousel-indicators li::before.active {
 	background-color: #fff;
+	list-style-type: none;
 }
 
 .card-slider .carousel-indicators li {
 	background-color: #000;
+	list-style-type: none;
 }
 
 .card-slider .carousel-indicators li.active {
 	background-color: #ffffff;
+	list-style-type: none;
 }
 
 .card-slider .carousel-indicators li {
@@ -341,6 +344,7 @@ footer p a:hover {
 	margin-left: 3px;
 	text-indent: -999px;
 	border-radius: 50%;
+	list-style-type: none;
 }
 
 .dash-rate {
