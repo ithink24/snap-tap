@@ -20,6 +20,12 @@ body {
 .user-in-btn {
 	display: flex;
 	align-items: baseline;
+
+	.btn-lg {
+		font-size: 1.1rem;
+		font-weight: 600;
+		padding: 8px 20px;
+	}
 }
 
 .theme-btn {
@@ -28,10 +34,14 @@ body {
 	padding: 10px 20px;
 }
 
-.sign-up-btn {
+.btn-link {
 	font-weight: bold !important;
-	margin-right: 15px;
+	margin-right: 4px;
 	text-decoration: none !important;
+}
+
+.btn-link:hover {
+	text-decoration: underline !important;
 }
 
 .highlited-txt {
@@ -293,9 +303,12 @@ footer p a:hover {
 	color: #e86c42;
 }
 .footer-list li a{
+	font-size: 16px;
+    font-weight: bold;
     color: #000;
     text-decoration: none;
 }
+
 @media screen and (max-width: 768px) {
 
 	.nav-tabs {
@@ -499,9 +512,9 @@ footer p a:hover {
 
 .accordion .accordion-content p {
 	font-size: 1rem;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 0em 0 3em;
-	padding: 0em 4.8em;
+	padding: 0em 6em;
 }
 
 .accordion-item button {
@@ -515,6 +528,7 @@ footer p a:hover {
 
 .accordion-title {
 	font-size: 19px;
+	font-weight: 500;
 }
 
 .footer-list {
@@ -524,8 +538,6 @@ footer p a:hover {
 }
 
 .footer-list li {
-	font-size: 16px;
-	font-weight: 600;
 	color: #000;
 	margin: 0em 1em;
 }
@@ -600,7 +612,7 @@ footer p a:hover {
 
 	.accordion .accordion-content p {
 		font-size: 1rem;
-		font-weight: 300;
+		font-weight: 400;
 		margin: 0em 0 3em;
 		padding: 0em 5.8em;
 	}

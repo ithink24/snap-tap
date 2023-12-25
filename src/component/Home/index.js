@@ -24,12 +24,12 @@ function Home() {
                         <div class="header-assets">
                             <img src={Logo} alt="logo"/>
                                 <div class="user-in-btn">
-                                    <Button variant="link" class="sign-up-btn">Sign Up</Button>
+                                    <Button variant="link" class="btn form-control">Sign Up</Button>
                                     <Button size="lg" class="btn form-control theme-btn">Log In</Button>
                                 </div>
                         </div>
                     </div>
-                    <div class="banner-container">
+                    <div class="container banner-container">
                         <h1 class="banner-heading">Share Your <span class="highlited-txt">Profile Details</span> With Just A Tap </h1>
                         <div class="d-flex banner-btn">
                             <Button size="lg" class="btn form-control theme-btn">Get Started</Button>
