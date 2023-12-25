@@ -2,7 +2,6 @@ import React from 'react';
 import '../style.css';
 
 const ImageCarousel = ({ id, images, activeIndex, handleIndicatorClick }) => {
-    console.log('aaaa');
     return (
         <div className="col-md-8">
             <div id={id} className="carousel slide card-slider" data-ride="carousel">
