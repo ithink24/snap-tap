@@ -21,15 +21,15 @@ function Home() {
             <div class='header' style={{ backgroundImage: `url(${Banner})` }}>
                 <div class="banner-img">
                     <div class="top-assets">
-                        <div class="list-inline header-assets">
+                        <div class="header-assets">
                             <img src={Logo} alt="logo"/>
                                 <div class="user-in-btn">
-                                    <Button variant="link">Sign Up</Button>
+                                    <Button variant="link" class="sign-up-btn">Sign Up</Button>
                                     <Button size="lg" class="btn form-control theme-btn">Log In</Button>
                                 </div>
                         </div>
                     </div>
-                    <div class="container banner-container">
+                    <div class="banner-container">
                         <h1 class="banner-heading">Share Your <span class="highlited-txt">Profile Details</span> With Just A Tap </h1>
                         <div class="d-flex banner-btn">
                             <Button size="lg" class="btn form-control theme-btn">Get Started</Button>
